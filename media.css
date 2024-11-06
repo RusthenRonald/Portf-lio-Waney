@@ -51,6 +51,11 @@ Breakpoint: min-width: 1441px
 .texto h1{
     font-size: 1.6em;
 }
+#midias_sociais a{
+    padding: 10px;
+
+}
+
 }
 /*Telas celulares maiores*/
 @media screen and (min-width:420px) and (max-width:767px){
