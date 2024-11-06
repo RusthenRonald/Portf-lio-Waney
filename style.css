@@ -132,14 +132,23 @@ main{
     color: #333;
   }
   /*projetos*/
+  .h2_projetos{
+    text-align: center; 
+    color: #F15B43; 
+    margin-top: 20vh;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
   .container_projetos{
     margin-left: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     gap: 40px;
   }
   .img_projetos img{
     width: 300px;
+    height: 200px;
     border-radius: 15px;
   }
   .botoes {
