@@ -78,6 +78,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .container_sobre_mim{
@@ -144,6 +145,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
   }
   .img_projetos img{
