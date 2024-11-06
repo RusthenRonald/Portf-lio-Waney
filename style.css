@@ -3,8 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+body,html{
     height: 100vh;
+    scroll-behavior: smooth;
 }
 #menu_hamburguer {
     display: none;
