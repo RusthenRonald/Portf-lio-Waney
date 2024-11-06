@@ -133,12 +133,14 @@ main{
   }
   /*projetos*/
   .container_projetos{
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     gap: 40px;
   }
   .img_projetos img{
     width: 300px;
+    border-radius: 15px;
   }
   .botoes {
     display: flex;
