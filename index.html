@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
-    <header>
-
-    </header>
+    <menu>
+        <nav id="menu_normal" >
+            <a href="#" class="a_hover">Home</a>
+            <a href="#" class="a_hover">Sobre mim</a>
+            <a href="#" class="a_hover">Formulário</a>
+            <a href="#" class="a_hover">Sobre nós</a>
+            <a href="#" class="a_hover">Login</a>
+            <button class="botao_header"><a href="#">Contato</a></button>
+        </nav>
+        <span id="menu_hamburguer" class="material-icons">menu</span>
+    </menu>
     <main>
 
     </main>
@@ -18,3 +28,10 @@
     </footer>
 </body>
 </html>
+
+<!--Menu hmburguer-->
+<script>
+    document.getElementById("menu_hamburguer").onclick = function() {
+    document.querySelector("menu").classList.toggle("menu-aberto");
+}
+</script>
