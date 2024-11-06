@@ -1,0 +1,90 @@
+/*
+Breakpoints Atualizados seguindo a w3c
+
+Tablets:
+Breakpoint: min-width: 768px e max-width: 1024px
+
+Laptops e Desktops:
+Breakpoint: min-width: 1025px e max-width: 1440px
+
+Desktops Grandes (4K e telas maiores):
+Breakpoint: min-width: 1441px
+*/
+/*criado para tela de celular em especifico , caso tenha alguma configuração que n faça no geral*/
+@media screen and (min-width:200px) and (max-width:420px){
+    /* Para telas menores */
+    #menu_normal {
+        display: none;
+    }
+    #menu_hamburguer {
+        margin-top: 20px;
+        display: block;
+    }
+    /* Estilos para o menu hambúrguer quando ativado */
+    .menu-aberto #menu_normal {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #fff;
+        width: 100%;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+/* Links do menu no modo hambúrguer */
+.menu-aberto #menu_normal a {
+    padding: 10px;
+    border-top: 1px solid #f0f0f0;
+}
+.botao_header{
+    margin-bottom: 25px;
+}
+
+}
+/*Telas celulares maiores*/
+@media screen and (min-width:420px) and (max-width:767px){
+
+/* Para telas menores */
+#menu_normal {
+    display: none;
+}
+#menu_hamburguer {
+    margin-top: 20px;
+    display: block;
+}
+/* Estilos para o menu hambúrguer quando ativado */
+.menu-aberto #menu_normal {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Links do menu no modo hambúrguer */
+.menu-aberto #menu_normal a {
+padding: 10px;
+border-top: 1px solid #f0f0f0;
+}
+.botao_header{
+    margin-bottom: 25px;
+}
+}
+/*Telas de Tablet:*/
+@media screen and (min-width:768px) and (max-width:1024px){
+
+}
+/*Telas de desktop ou laptop: */
+@media screen and (min-width:1025px) and (max-width:1440px){
+
+}
+/*Telas grandes */
+@media screen and (min-width:1441px) {
+
+
+}
+
