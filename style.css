@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    height: 100vh;
+}
 #menu_hamburguer {
     display: none;
     font-size: 32px;
@@ -62,4 +65,22 @@ nav{
 .botao_header:hover{
     transform: scale(1.005); 
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+}
+/*main*/
+main{
+    margin-top: 100px;
+}
+.img img{
+    border-radius: 50%;
+    height: 400px;
+}
+.texto{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.container_sobre_mim{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
