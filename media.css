@@ -1,5 +1,5 @@
 /*
-Breakpoints Atualizados seguindo a w3c
+meus breakpoints 
 
 Tablets:
 Breakpoint: min-width: 768px e max-width: 1024px
@@ -10,9 +10,8 @@ Breakpoint: min-width: 1025px e max-width: 1440px
 Desktops Grandes (4K e telas maiores):
 Breakpoint: min-width: 1441px
 */
-/*criado para tela de celular em especifico , caso tenha alguma configuração que n faça no geral*/
+
 @media screen and (min-width:200px) and (max-width:420px){
-    /* Para telas menores */
     #menu_normal {
         display: none;
     }
@@ -45,7 +44,6 @@ Breakpoint: min-width: 1441px
 /*Telas celulares maiores*/
 @media screen and (min-width:420px) and (max-width:767px){
 
-/* Para telas menores */
 #menu_normal {
     display: none;
 }
