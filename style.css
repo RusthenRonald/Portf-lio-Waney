@@ -68,7 +68,7 @@ nav{
 }
 /*main*/
 main{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .img img{
     border-radius: 50%;
@@ -83,4 +83,5 @@ main{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
