@@ -253,3 +253,13 @@ main{
 .footer_lista , .footer_contatos{
   flex-basis: 300px;
 }
+.curriculo{
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.curriculo h2{
+  color: #F15B43;
+  font-size: 2em;
+}
