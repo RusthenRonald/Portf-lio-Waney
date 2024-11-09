@@ -58,6 +58,11 @@ Breakpoint: min-width: 1441px
     padding: 10px;
 
 }
+.curriculo p{
+    text-align: center;
+    width: 250px;
+    font-size: 1.0em;
+  }
 }
 /*Telas celulares maiores*/
 @media screen and (min-width:420px) and (max-width:767px){
@@ -101,6 +106,11 @@ border-top: 1px solid #f0f0f0;
 .curriculo h2{
     font-size: 2.3em;
   }
+  .curriculo p{
+    text-align: center;
+    width: 250px;
+    font-size: 1.0em;
+  }
 }
 /*Telas de Tablet:*/
 @media screen and (min-width:768px) and (max-width:1024px){
@@ -119,6 +129,9 @@ border-top: 1px solid #f0f0f0;
     .curriculo h2{
         font-size: 2.3em;
       }
+      .curriculo p{
+        font-size: 1.2em;
+      }
 }
 /*Telas de desktop ou laptop: */
 @media screen and (min-width:1025px) and (max-width:1440px){
@@ -136,6 +149,9 @@ border-top: 1px solid #f0f0f0;
     }
     .curriculo h2{
         font-size: 2.6em;
+      }
+      .curriculo p{
+        font-size: 1.4em;
       }
 }
 /*Telas grandes */
